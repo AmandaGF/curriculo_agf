@@ -28,6 +28,101 @@
     border-radius: 0px 60px 0px 0px;
 }
 
-.left-section-contents{
-    /*Não aparece o resto do código no vídeo, e não achei em outro diretório*/
+.left-section-content {
+    padding: 2rem 2rem;
+}
+
+.profile {
+    width: 100%;
+    border-bottom: 2px solid #999999;
+}
+
+.profile .profile-image{
+    width: 100%;    
+}
+
+/* .contact-info {border-bottom: 2px solid #1B2631;} */
+
+.left-title {
+    color: #eeeeee;
+    font-size: 20px;
+}
+
+.contact-info ul{
+    padding-top: 1.5rem;
+    
+}
+
+.contact-info ul li,
+.references ul li{
+    padding: .4rem 0;
+    color: #eeeeee;
+}
+
+.contact-info ul li i,
+.references ul li i{
+    padding-right: 1rem;
+    font-size: 18px;
+    color: #eeeeee;
+}
+
+.skills ul {
+    padding-top: 1.5rem;
+}
+
+.skill ul li p{
+    padding: .4rem 0;
+    color: #eeeeee;
+}
+
+.right-section-contents{
+    padding: 2rem 2rem ;
+}
+
+.right-title{
+    color: #eeeeee;
+}
+
+.gap {
+    padding-bottom: 2rem;
+}
+
+.about-me-contents{
+    font-size: 18px;
+    color: #eeeeee;
+}
+
+.experience-contents,
+.education-contents,
+awards-contents{
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.education-time-period,
+.awards-time-period{
+    font-site: 18px;
+}
+
+.exp-potion,
+.education-subject,
+.awards-name{
+    font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc{
+    font-size: 16px;
+    padding-left: 5px;
 }
